@@ -1,0 +1,8 @@
+* {
+  padding: 20px;
+}
+body,
+html {
+  background-color: red;
+  color: white;
+}
