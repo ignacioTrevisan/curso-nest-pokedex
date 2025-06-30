@@ -22,3 +22,19 @@ npm i -g nest/cli
 ```
 docker-compose up -d
 ```
+
+5. Levantar la base de datos
+
+```
+Clonar el archivo .env.templated y renombrar la copia a .env
+```
+
+6. Llenar las variables de entorno definidas en el env
+
+7. Ejecutar la app de dev con el comando de yarn start:dev
+
+8. Reconstruir la semilla de la bdd
+
+```
+http://localhost:3000/api/v2/seed (get)
+```
